@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f809447c149d44b6bf925185b3e82e2, type: 3}
+  m_Name: CharacterStats
+  m_EditorClassIdentifier: 
+  setManually: 0
+  saveDataOnClose: 0
+  maxHealth: 150
+  currentHealth: 100
+  baseDamage: 10
+  currentDamage: 10
+  baseResistance: 5
+  currentResistance: 5
+  charLevel: 1
+  charLevelUps:
+  - maxHealth: 1000
+    baseDamage: 100
+    baseResistance: 10
+  - maxHealth: 2000
+    baseDamage: 200
+    baseResistance: 20
+  - maxHealth: 3000
+    baseDamage: 300
+    baseResistance: 30
